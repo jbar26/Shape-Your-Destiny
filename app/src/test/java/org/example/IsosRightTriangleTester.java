@@ -72,6 +72,12 @@ class IsosRightTriangleTester {
   }
 
 
+  @Test
+  public void testIsosRightTriangleNumberOfSides()
+  {
+    IsoscelesRightTriangle isoscelesRightTriangle = new IsoscelesRightTriangle(8);
+    assertEquals(3, isoscelesRightTriangle.numberOfSides());
+  }
 
 
 }

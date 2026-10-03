@@ -20,6 +20,24 @@ public class App {
     System.out.println("Perimeter: " + rightTriangle.getPerimeter());
     System.out.println();
 
+    // Part 2:  Square and Isos Right Triangle
+    Square square = new Square(9);
+    IsoscelesRightTriangle isosRt = new IsoscelesRightTriangle(9);
 
+    System.out.println("A square with a side length of 9 calculations:");
+    System.out.println("Area: " + square.getArea());
+    System.out.println("Perimeter: " + square.getPerimeter());
+    System.out.println();
+
+    System.out.println("An isosceles right triangle with a side length of 9 calculations:");
+    System.out.println("Area: " + isosRt.getArea());
+    System.out.println("Perimeter: " + isosRt.getPerimeter());
+    System.out.println();
+
+    // Part 3:  Implement Polygon Interface
+    System.out.println("A rectangle has " + rect.numberOfSides() + " sides.");
+    System.out.println("A square has " + square.numberOfSides() + " sides.");
+    System.out.println("A right triangle has " + rightTriangle.numberOfSides()+ " sides.");
+    System.out.println("An isosceles right triangle has " + isosRt.numberOfSides() + " sides.");
   }
 }

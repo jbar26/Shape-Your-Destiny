@@ -71,4 +71,12 @@ class SquareTester {
   }
 
 
+  // Test Polygon Interface and numberOfSides method.
+  @Test
+  public void testSquareNumberOfSides()
+  {
+    Square square = new Square(10);
+    assertEquals(4, square.numberOfSides());
+  }
+
 }

@@ -96,4 +96,11 @@ class RectangleTester {
   }
 
 
+  @Test
+  public void testRectangleNumberOfSides()
+  {
+    Rectangle rect = new Rectangle(5, 9);
+    assertEquals(4, rect.numberOfSides());
+  }
+
 }
