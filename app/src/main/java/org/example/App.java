@@ -39,5 +39,16 @@ public class App {
     System.out.println("A square has " + square.numberOfSides() + " sides.");
     System.out.println("A right triangle has " + rightTriangle.numberOfSides()+ " sides.");
     System.out.println("An isosceles right triangle has " + isosRt.numberOfSides() + " sides.");
+    System.out.println();
+
+
+    //Add-On:  Parallelogram
+    Parallelogram pgram = new Parallelogram(7, 4);
+    System.out.println("A parallelogram with a base of 7 and height of 4 calculations:");
+    System.out.println("Area: " + pgram.getArea());
+    System.out.println("Perimeter: " + pgram.getPerimeter());
+    System.out.println("An parallelogram has " + pgram.numberOfSides() + " sides.");
+
+
   }
 }
